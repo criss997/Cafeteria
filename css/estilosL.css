@@ -1,7 +1,53 @@
 body {
     font-family: Helvetica, sans-serif;
     background: black;
-    background-image: url("https://cdn.pixabay.com/photo/2016/03/09/09/43/food-1245955_960_720.jpg ");
+    background-image: url("https://images3.alphacoders.com/876/876952.jpg");
+}
+
+.loginForm-divPadre {
+    margin: 10%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.loginForm-Txt_Btn_Container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.loginform-textContainer,
+.loginForm-buttonContainer {
+    align-self: center;
+    margin: 15px;
+}
+
+.loginform-userText {
+    width: 447px;
+    height: 66px;
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+.loginform-userText::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;
+}
+
+.loginForm-buttonContainer {
+    width: 447px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .loginForm-btnRegistro {
@@ -18,7 +64,7 @@ body {
 }
 
 .loginForm-btnRegistro:hover {
-    background: #93cca5;
+    background: rgb(27, 196, 125);
 }
 
 .loginForm-btnLogin {
@@ -35,30 +81,7 @@ body {
 }
 
 .loginForm-btnLogin:hover {
-    background: #93cca5;
-}
+    background: rgb(27, 196, 125);
+}.loginForm-userText {
 
-.loginform-userText {
-    width: 447px;
-    height: 66px;
-    font-size: 30px;
-}
-
-.loginform-userText::-webkit-input-placeholder {
-    text-align: center;
-    line-height: 100px;
-}
-
-.loginForm-divPadre {
-    margin: 10%;
-    padding: 1%
-}
-
-.loginForm-divTitle,
-.loginForm-divLoginText,
-.loginForm-divButtons {
-    color: white;
-    margin: 1rem;
-    padding: 1rem;
-    text-align: center;
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://iitd7euw75.execute-api.us-east-1.amazonaws.com/services/products/getProducts" uri="src/conf/xml-resources/web-service-references/getProducts/wsdl/iitd7euw75.execute-api.us-east-1.amazonaws.com/services/products/getproducts"/>
+</catalog>

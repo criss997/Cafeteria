@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+div.div-headerContainer {
+    margin: 1%;
+    color: white;
+    background-color: 0c0c0c;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+div.div-headerContainerLogo {
+    width: 200px;
+    height: 60px;
+    margin: 0.8%;
+}
+
+.div-headerContainerBuscarSesion {
+    background-color: 0c0c0c;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+div.div-headerContainerBuscar,
+div.div-headerContainerSesion,
+div.div-headerContainerEtiqueta {
+    margin: 0.8%;
+    width: 100px;
+    height: 70px;
+    border: solid;
+}
+
+div.div-contenedor {
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px 5px;
+    border-color: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.div-contenedorItem {
+    color: white;
+    background-color: #272727;
+    width: 30%;
+    margin: 1%;
+    height: 600px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
