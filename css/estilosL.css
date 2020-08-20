@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: black;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/09/09/43/food-1245955_960_720.jpg ");
+}
+
+.loginForm-btnRegistro {
+    width: 208px;
+    height: 70px;
+    font-family: 'Inter', sans-serif, Arial;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 16px;
+    text-decoration: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    background: #d6ba85;
+}
+
+.loginForm-btnRegistro:hover {
+    background: #93cca5;
+}
+
+.loginForm-btnLogin {
+    width: 208px;
+    height: 70px;
+    font-family: 'Inter', sans-serif, Arial;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 16px;
+    text-decoration: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    background: rgb(108, 192, 103);
+}
+
+.loginForm-btnLogin:hover {
+    background: #93cca5;
+}
+
+.loginform-userText {
+    width: 447px;
+    height: 66px;
+    font-size: 30px;
+}
+
+.loginform-userText::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;
+}
+
+.loginForm-divPadre {
+    margin: 10%;
+    padding: 1%
+}
+
+.loginForm-divTitle,
+.loginForm-divLoginText,
+.loginForm-divButtons {
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
